@@ -1,0 +1,33 @@
+*{
+    --color_principal:#8BCC99;
+    --color_footer:#EA950A;
+}
+
+
+
+
+.boton1{
+    background-color: var(--color_principal)!important;
+}
+
+footer{
+    background-color: var(--color_footer);
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+button{
+    background-color: var(--color_principal);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--color_footer);
+}
+.collapsible-body{
+    background-color: var(--color_principal);
+    height: 500px;
+}
