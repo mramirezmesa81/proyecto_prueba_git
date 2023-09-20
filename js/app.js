@@ -10,3 +10,5 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.modal').modal();
   });
+
+  console.log('me falto este log');
